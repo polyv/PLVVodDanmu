@@ -25,7 +25,7 @@
 	NSMutableString *description = [super.description stringByAppendingString:@":\n"].mutableCopy;
 	[description appendFormat:@" content: %@;\n", _content];
 	[description appendFormat:@" time: %f;\n", _time];
-	[description appendFormat:@" colorHex: %zx;\n", _colorHex];
+	[description appendFormat:@" colorHex: %zdx;\n", _colorHex];
 	[description appendFormat:@" fontSize: %d;\n", _fontSize];
 	[description appendFormat:@" mode: %zd;\n", _mode];
 	return description;
